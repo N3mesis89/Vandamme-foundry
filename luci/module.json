@@ -1,0 +1,24 @@
+{
+  "id": "vandamme-luci",
+  "title": "Vandamme – Luci",
+  "description": "Preset di luci (torcia, lanterna, braciere, luce solare…) da piazzare con un clic o applicare a luci e token. Le luci d'ambiente possono avere un suono collegato che le segue, si spegne con loro e sparisce se le cancelli.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Vandamme"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/vandamme-luci.1.0.0.js"
+  ],
+  "styles": [
+    "styles/vandamme-luci.1.0.0.css"
+  ],
+  "url": "https://github.com/N3mesis89/Vandamme-foundry",
+  "manifest": "https://raw.githubusercontent.com/N3mesis89/Vandamme-foundry/main/luci/module.json",
+  "download": "https://github.com/N3mesis89/Vandamme-foundry/releases/download/Luci-1.0.0/vandamme-luci.zip"
+}
