@@ -1,8 +1,8 @@
 {
   "id": "vandamme-porte",
   "title": "Vandamme – Porte",
-  "description": "Gestore delle porte della scena: elenco di tutte le porte raggruppate per stanza, preset di suoni personalizzati (creati a mano, da una cartella o importati da JSON) e applicazione del suono a tutte le porte selezionate con una conferma. Con dnd5e: i giocatori possono scassinare o sfondare le porte chiuse a chiave, aprirle o chiuderle in silenzio, ascoltare oltre la porta ed esaminarla (anche per le trappole di Vandamme – Esplorazione), con CD standard o per singola porta.",
-  "version": "1.1.1",
+  "description": "Gestore delle porte della scena: elenco di tutte le porte raggruppate per stanza, preset di suoni personalizzati (creati a mano, da una cartella o importati da JSON) e applicazione del suono a tutte le porte selezionate con una conferma. Con dnd5e: i giocatori possono scassinare o sfondare le porte chiuse a chiave, aprirle o chiuderle in silenzio, ascoltare oltre la porta ed esaminarla (anche per le trappole di Vandamme – Esplorazione), con CD standard o per singola porta. Le porte si usano solo da accanto, l'ascolto ha una CD solo se c'è qualcosa da sentire e il GM riceve un avviso quando un giocatore apre, chiude o tenta una porta.",
+  "version": "1.2.0",
   "authors": [
     {
       "name": "Vandamme"
@@ -22,13 +22,13 @@
     ]
   },
   "esmodules": [
-    "scripts/vandamme-porte.1.1.1.js"
+    "scripts/vandamme-porte.1.2.0.js"
   ],
   "styles": [
-    "styles/vandamme-porte.1.1.1.css"
+    "styles/vandamme-porte.1.2.0.css"
   ],
   "url": "https://github.com/N3mesis89/Vandamme-foundry",
   "manifest": "https://raw.githubusercontent.com/N3mesis89/Vandamme-foundry/main/porte/module.json",
-  "download": "https://github.com/N3mesis89/Vandamme-foundry/releases/download/Porte-1.1.1/vandamme-porte.zip",
+  "download": "https://github.com/N3mesis89/Vandamme-foundry/releases/download/Porte-1.2.0/vandamme-porte.zip",
   "socket": true
 }
