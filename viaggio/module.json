@@ -1,0 +1,60 @@
+{
+  "id": "vandamme-viaggio",
+  "title": "Vandamme – Viaggio",
+  "description": "Imprevisti di viaggio: una Region chiede il d20, il risultato sceglie la difficoltà (1 molto difficile, 20 molto facile) e da una tabella per fascia esce l'evento. Prove di abilità, strumenti, caratteristiche e tiri salvezza fatte da un volontario, da uno a caso, da ognuno o dal gruppo, anche a tempo; quattro gradi di esito con testo e conseguenze (danni, sfinimento, ore, ispirazione, Paura e Speranza di Vandamme – Esplorazione). Tabelle per ambiente, modificabili, esportabili e importabili.",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Vandamme"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "vandamme-esplorazione",
+        "type": "module",
+        "reason": "Le conseguenze degli imprevisti possono muovere la barra di Paura e Speranza."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/vandamme-viaggio.1.0.1.js"
+  ],
+  "styles": [
+    "styles/vandamme-viaggio.1.0.1.css"
+  ],
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/it.json"
+    }
+  ],
+  "socket": true,
+  "documentTypes": {
+    "RegionBehavior": {
+      "viaggio": {}
+    }
+  },
+  "url": "https://github.com/N3mesis89/Vandamme-foundry",
+  "manifest": "https://raw.githubusercontent.com/N3mesis89/Vandamme-foundry/main/viaggio/module.json",
+  "download": "https://github.com/N3mesis89/Vandamme-foundry/releases/download/Viaggio-1.0.1/vandamme-viaggio.zip"
+}
