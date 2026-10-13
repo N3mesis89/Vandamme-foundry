@@ -1,8 +1,8 @@
 {
   "id": "vandamme-viaggio",
   "title": "Vandamme – Viaggio",
-  "description": "Imprevisti di viaggio: una Region chiede il d20, il risultato sceglie la difficoltà (1 molto difficile, 20 molto facile) e da una tabella per fascia esce l'evento. Prove di abilità, strumenti, caratteristiche e tiri salvezza fatte da un volontario, da uno a caso, da ognuno o dal gruppo, anche a tempo; quattro gradi di esito con testo e conseguenze (danni, sfinimento, ore, ispirazione, Paura e Speranza di Vandamme – Esplorazione). Tabelle per ambiente, modificabili, esportabili e importabili.",
-  "version": "1.0.1",
+  "description": "Imprevisti di viaggio: una Region chiede il d20, il risultato sceglie la difficoltà (1 molto difficile, 20 molto facile) e da una tabella per fascia esce l'evento. Prove di abilità, strumenti, caratteristiche e tiri salvezza fatte da un volontario, da uno a caso, da ognuno o dal gruppo, anche a tempo; quattro gradi di esito con testo e conseguenze (danni, sfinimento, ore, ispirazione, Paura e Speranza di Vandamme – Esplorazione). Tabelle per ambiente, modificabili, esportabili e importabili. Un evento può avere la sua scena: i giocatori la vedono durante l'imprevisto e il GM li riporta sulla mappa del viaggio. Centro di comando del GM: mandi tu i popup (testo, prova, esito, scelte, messaggi), con modifiche al volo e sfide create sul momento. Scena d'attesa, immagini e musica all'ingresso nella regione; immagini in tutti i popup; musica ed effetti sonori dal centro di comando.",
+  "version": "1.3.0",
   "authors": [
     {
       "name": "Vandamme"
@@ -31,10 +31,10 @@
     ]
   },
   "esmodules": [
-    "scripts/vandamme-viaggio.1.0.1.js"
+    "scripts/vandamme-viaggio.1.3.0.js"
   ],
   "styles": [
-    "styles/vandamme-viaggio.1.0.1.css"
+    "styles/vandamme-viaggio.1.3.0.css"
   ],
   "languages": [
     {
@@ -56,5 +56,5 @@
   },
   "url": "https://github.com/N3mesis89/Vandamme-foundry",
   "manifest": "https://raw.githubusercontent.com/N3mesis89/Vandamme-foundry/main/viaggio/module.json",
-  "download": "https://github.com/N3mesis89/Vandamme-foundry/releases/download/Viaggio-1.0.1/vandamme-viaggio.zip"
+  "download": "https://github.com/N3mesis89/Vandamme-foundry/releases/download/Viaggio-1.3.0/vandamme-viaggio.zip"
 }
